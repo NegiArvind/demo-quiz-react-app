@@ -1,0 +1,30 @@
+.question {
+    border: 1px solid #ddd;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+
+.question h2 {
+    margin-bottom: 10px;
+}
+
+.radio-label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.radio-label input[type="radio"] {
+    margin-right: 5px;
+}
+
+.question:hover {
+    background-color: #f5f5f5;
+}
+
+.selected {
+    background-color: #4caf50;
+    color: #fff;
+}
