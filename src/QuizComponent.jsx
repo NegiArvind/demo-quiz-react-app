@@ -1,49 +1,7 @@
 import {useEffect, useState} from "react";
 import Question from "./Question";
 import './quiz.css';
-
-const questions = [
-    {
-        id: "1",
-        questionText: "What is the national animal of india?",
-        options: [
-            {answerText: "Lion", isCorrect: false},
-            {answerText: "Tiger", isCorrect: true},
-            {answerText: "Deer", isCorrect: false},
-            {answerText: "Elephant", isCorrect: false},
-        ]
-    },
-    {
-        id: "2",
-        questionText: "Who is sachin tendulakar?",
-        options: [
-            {answerText: "Footballer", isCorrect: false},
-            {answerText: "Cricketer", isCorrect: true},
-            {answerText: "Hockey", isCorrect: false},
-            {answerText: "Chess", isCorrect: false},
-        ]
-    },
-    {
-        id: "3",
-        questionText: "What is the national bird of india?",
-        options: [
-            {answerText: "Peacock", isCorrect: true},
-            {answerText: "Monal", isCorrect: false},
-            {answerText: "Hen", isCorrect: false},
-            {answerText: "Parrot", isCorrect: false},
-        ]
-    },
-    {
-        id: "4",
-        questionText: "Who is the PM of india?",
-        options: [
-            {answerText: "Narendra Modi", isCorrect: true},
-            {answerText: "Rahul Gandhi", isCorrect: false},
-            {answerText: "Advani", isCorrect: false},
-            {answerText: "Amit Shah", isCorrect: false},
-        ]
-    }
-]
+const questions = require('./questionFixture.json')
 
 export function QuizComponent(){
     const [currentQuestionNumber, setCurrentQuestionNumber] = useState(0);
@@ -111,7 +69,7 @@ export function QuizComponent(){
                 />
                 ) : (
                     <div className={"summary"}>
-                        <h2> Your score is: {score}</h2>
+                        <h2> Your score is: {score}/{questions.length * 10}</h2>
                         <button onClick={() => window.location.reload()}>Restart Quiz </button>
                     </div>
                 )

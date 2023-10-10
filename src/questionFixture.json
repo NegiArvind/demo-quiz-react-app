@@ -1,0 +1,222 @@
+[
+  {
+    "questionId": 1,
+    "questionText": "What is the capital of Canada?",
+    "options": [
+      {
+        "answerText": "Toronto",
+        "isCorrect": false
+      },
+      {
+        "answerText": "Montreal",
+        "isCorrect": false
+      },
+      {
+        "answerText": "Vancouver",
+        "isCorrect": false
+      },
+      {
+        "answerText": "Ottawa",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "questionId": 2,
+    "questionText": "Which gas do plants absorb for photosynthesis?",
+    "options": [
+      {
+        "answerText": "Oxygen",
+        "isCorrect": false
+      },
+      {
+        "answerText": "Carbon Dioxide",
+        "isCorrect": true
+      },
+      {
+        "answerText": "Nitrogen",
+        "isCorrect": false
+      },
+      {
+        "answerText": "Hydrogen",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "questionId": 3,
+    "questionText": "What is the largest mammal in the world?",
+    "options": [
+      {
+        "answerText": "Elephant",
+        "isCorrect": false
+      },
+      {
+        "answerText": "Giraffe",
+        "isCorrect": false
+      },
+      {
+        "answerText": "Blue Whale",
+        "isCorrect": true
+      },
+      {
+        "answerText": "Lion",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "questionId": 4,
+    "questionText": "Which planet is known as the 'Morning Star' or 'Evening Star'?",
+    "options": [
+      {
+        "answerText": "Earth",
+        "isCorrect": false
+      },
+      {
+        "answerText": "Venus",
+        "isCorrect": true
+      },
+      {
+        "answerText": "Mars",
+        "isCorrect": false
+      },
+      {
+        "answerText": "Jupiter",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "questionId": 5,
+    "questionText": "What is the largest organ in the human body?",
+    "options": [
+      {
+        "answerText": "Heart",
+        "isCorrect": false
+      },
+      {
+        "answerText": "Brain",
+        "isCorrect": false
+      },
+      {
+        "answerText": "Liver",
+        "isCorrect": false
+      },
+      {
+        "answerText": "Skin",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "questionId": 6,
+    "questionText": "Which gas is most abundant in Earth's atmosphere?",
+    "options": [
+      {
+        "answerText": "Oxygen",
+        "isCorrect": false
+      },
+      {
+        "answerText": "Carbon Dioxide",
+        "isCorrect": false
+      },
+      {
+        "answerText": "Nitrogen",
+        "isCorrect": true
+      },
+      {
+        "answerText": "Argon",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "questionId": 7,
+    "questionText": "What is the currency of Japan?",
+    "options": [
+      {
+        "answerText": "Yuan",
+        "isCorrect": false
+      },
+      {
+        "answerText": "Won",
+        "isCorrect": false
+      },
+      {
+        "answerText": "Dollar",
+        "isCorrect": false
+      },
+      {
+        "answerText": "Yen",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "questionId": 8,
+    "questionText": "What is the chemical symbol for gold?",
+    "options": [
+      {
+        "answerText": "Gd",
+        "isCorrect": false
+      },
+      {
+        "answerText": "Au",
+        "isCorrect": true
+      },
+      {
+        "answerText": "Ag",
+        "isCorrect": false
+      },
+      {
+        "answerText": "Ge",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "questionId": 9,
+    "questionText": "Which country is known as the 'Land of the Rising Sun'?",
+    "options": [
+      {
+        "answerText": "China",
+        "isCorrect": false
+      },
+      {
+        "answerText": "Korea",
+        "isCorrect": false
+      },
+      {
+        "answerText": "Japan",
+        "isCorrect": true
+      },
+      {
+        "answerText": "Thailand",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "questionId": 10,
+    "questionText": "What is the boiling point of water in Celsius?",
+    "options": [
+      {
+        "answerText": "0°C",
+        "isCorrect": false
+      },
+      {
+        "answerText": "100°C",
+        "isCorrect": true
+      },
+      {
+        "answerText": "50°C",
+        "isCorrect": false
+      },
+      {
+        "answerText": "75°C",
+        "isCorrect": false
+      }
+    ]
+  }
+]
